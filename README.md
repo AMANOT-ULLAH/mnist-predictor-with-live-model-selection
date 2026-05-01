@@ -25,16 +25,21 @@ A browser-based web app that recognizes handwritten digits (0–9) using four de
 | **ResNet** | ResNet-18 (modified) | ~99.3% |
 | **MobileNet** | MobileNetV2 (modified) | ~99.1% |
 
-All models were trained on the [MNIST dataset](http://yann.lecun.com/exdb/mnist/) — 60,000 training images of handwritten digits.
+All models were trained on the [MNIST dataset](https://www.kaggle.com/competitions/mnist-dataset-number-classification) — 60,000 training images of handwritten digits.
 
 ---
 
 ## 🗂️ Project Structuremnist-predictor/
 ├── index.html            # Complete web app (HTML + CSS + JS in one file)
+
 ├── mycnn_final.onnx      # Custom CNN model weights
+
 ├── lenet_final.onnx      # LeNet-5 model weights
+
 ├── resnet_final.onnx     # ResNet-18 model weights
+
 ├── mobilenet_final.onnx  # MobileNetV2 model weights
+
 └── README.md
 
 ---
