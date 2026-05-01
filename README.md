@@ -1,4 +1,4 @@
-# 🔢 MNIST Digit Predictor
+# 🔢 MNIST Digit Predictor with live model selection 
 
 A browser-based web app that recognizes handwritten digits (0–9) using four deep learning models — running **directly in the browser**, no server or backend required.
 
